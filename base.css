@@ -37,15 +37,6 @@
     background: -webkit-linear-gradient(90deg, var(--bg1), var(--bg2), var(--bg3), var(--bg4), var(--bg5))!important;
     background: linear-gradient(90deg, var(--bg1), var(--bg2), var(--bg3), var(--bg4), var(--bg5))!important;
     font-weight: bold!important;
-    color: var(--MainColor)!important;
-    -webkit-background-clip: text!important;
-    -moz-background-clip: text!important;
-    -o-background-clip: text!important;
-    background-clip: text!important;
-    -webkit-text-fill-color: transparent!important;
-    background-size: 1500% 1500%!important;
-    -webkit-animation: bganim 20s ease infinite !important;
-    animation: bganim 20s ease infinite !important;
 }
 
 .expandedFolderBackground-2sPsd-, .reaction-1hd86g.reactionMe-wv5HKu, .actionButton-uPB8Fs, .mentioned-xhSam7:before, .divider-JfaTT5,
