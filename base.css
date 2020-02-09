@@ -37,13 +37,47 @@
     background: -webkit-linear-gradient(90deg, var(--bg1), var(--bg2), var(--bg3), var(--bg4), var(--bg5))!important;
     background: linear-gradient(90deg, var(--bg1), var(--bg2), var(--bg3), var(--bg4), var(--bg5))!important;
     font-weight: bold!important;
+    color: var(--MainColor)!important;
+    -webkit-background-clip: text!important;
+    -moz-background-clip: text!important;
+    -o-background-clip: text!important;
+    background-clip: text!important;
+    -webkit-text-fill-color: transparent!important;
+    background-size: 1500% 1500%!important;
+    -webkit-animation: bganim 20s ease infinite !important;
+    animation: bganim 20s ease infinite !important;
 }
 
 .expandedFolderBackground-2sPsd-, .reaction-1hd86g.reactionMe-wv5HKu, .actionButton-uPB8Fs, .mentioned-xhSam7:before, .divider-JfaTT5,
 .selected-aXhQR6 .layout-2DM8Md, .actionButton-VzECiy, .colorPickerSwatch-5GX3Ve.default-cS_caM, .folderIconWrapper-226oVY[style="background-color: rgba(114, 137, 218, 0.4);"], div[style*="background-color: rgb(114, 137, 218);"], #bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch.checked, .topPill-30KHOu>div:nth-child(5), .regionSelect-3lf4eE:hover button, .barInner-3NDaY_, .checked-3_4uQ9, .footer-1fjuF6:after, .topSectionPlaying-1J5E4n, .lookFilled-1Gx00P.colorGreen-29iAKY, .actionButton-2PeQbJ, .actionButton-2PeQbJ, .activeButton-1BJAiN, .activeButton-1BJAiN:hover, .css-1wqqa50-container, .searchBox-3Y2Vi7, .item-2hkk8m, .isMentionedCozy-3isp7y:after, .closeButton-1tv5uR, .lookFilled-1Gx00P.colorBrand-3pXr91, #bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch.checked, .modeSelected-1zApJ_ .content-3at_AU, .modeSelected-1zApJ_:hover .content-3at_AU, .circleIconButton-jET_ig, #bd-settings-sidebar .ui-tab-bar-item.selected, .side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ, .topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ, .uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .bgScale-1otPtc, .checkbox-3kaeSU .checkboxInner-3yjcPe .checkboxElement-1qV33p:checked+span, #bda-qem button.active, #bda-qem button.active:hover, .bd-pfbtn, .selected-mKYnfr.option-n0icdO, .barFill-23-gu-, .themeDefault-24hCdX.valueChecked-m-4IJZ, .lookFilled-1Gx00P.colorBrand-3pXr91:disabled, .bda-slist .bda-footer button, .lookOutlined-3sRXeN.colorBrand-3pXr91, .unread-3zKkbm, .appMount-3lHmkl, body, html {
+    background: -webkit-linear-gradient(100deg, var(--bg1), var(--bg2), var(--bg3), var(--bg4), var(--bg5))!important;
+    background: linear-gradient(100deg, var(--bg1), var(--bg2), var(--bg3), var(--bg4), var(--bg5))!important;
     background-size: 1500% 1500%!important;
+    -webkit-animation: bganim 20s ease infinite !important;
+    animation: bganim 20s ease infinite !important;
+    color: var(--MainColor)!important;
 }
 
+.theme-dark, .theme-light {
+    --text-link: var(--MainColor);
+    --text-normal: var(--MainColor);
+    --background-primary: var(--darkgrey);
+    --background-secondary: var(--darkgrey);
+    --background-tertiary: var(--darkgrey);
+    --background-accent: var(--darkgrey);
+    --background-floating: var(--darkgrey);
+    --text-muted: var(--MainColory);
+    --interactive-normal: var(--MainColor);
+    --header-secondary: var(--MainColor);
+    --channels-default: var(--MainColor);
+    --interactive-hover: var(--MainColor);
+    --interactive-active: var(--MainColor);
+    --text-normal: var(--MainColor);
+    --header-primary: var(--MainColor);
+    --HSL-size: 2.25em;
+    --HSL-spacing: 10px;
+    --HSL-roundness: .5em;
+    --HSL-roundnessHover: 20%;
 }
 
 ::-webkit-input-placeholder, ::placeholder, body, button, input, select, textarea {
@@ -126,7 +160,6 @@ path[fill="#dcddde"] {
 
 .appMount-3lHmkl, .preview-2nSL_2 {
     background: center / cover no-repeat var(--background) !important;
-    opacity: 0.95;
 }
 
 ::-moz-selection {
