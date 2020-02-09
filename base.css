@@ -44,26 +44,6 @@
     background-size: 1500% 1500%!important;
 }
 
-.theme-dark, .theme-light {
-    --text-link: var(--MainColor);
-    --text-normal: var(--MainColor);
-    --background-primary: var(--darkgrey);
-    --background-secondary: var(--darkgrey);
-    --background-tertiary: var(--darkgrey);
-    --background-accent: var(--darkgrey);
-    --background-floating: var(--darkgrey);
-    --text-muted: var(--MainColory);
-    --interactive-normal: var(--MainColor);
-    --header-secondary: var(--MainColor);
-    --channels-default: var(--MainColor);
-    --interactive-hover: var(--MainColor);
-    --interactive-active: var(--MainColor);
-    --text-normal: var(--MainColor);
-    --header-primary: var(--MainColor);
-    --HSL-size: 2.25em;
-    --HSL-spacing: 10px;
-    --HSL-roundness: .5em;
-    --HSL-roundnessHover: 20%;
 }
 
 ::-webkit-input-placeholder, ::placeholder, body, button, input, select, textarea {
